@@ -1,0 +1,61 @@
+body {
+    font-family: Creepster, cursive ;
+    background-color: black;
+    color: ivory;
+}
+
+h1, h3{
+    font-family: MedievalSharp, cursive;
+}
+
+/*Styling the clasification of articles*/
+#lower-risk{
+    color:forestgreen;
+}
+
+#medium-risk {
+    color: goldenrod;
+}
+
+#high-risk {
+    color:crimson;
+}
+
+#extreme-risk{
+    color:darkslateblue;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:gray;
+    color: ivory;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    z-index: 1000;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: ivory;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color:darkolivegreen;
+}
+
+.navbar img{
+    height: 40px;
+    width: 40px;
+}
